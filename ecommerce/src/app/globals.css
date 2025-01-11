@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #0C0C0C;
+    color: #fff;
+}
+body .dark{
+    background: #fff;
+}
+
+.bg-darkBg{
+    background-color: #0C0C0C;
+}
+
+.bg-darkcomp{
+    background-color: #1E201E;
+}
+
+.bg-darkcard{
+    background-color: #31363F;
+}
